@@ -119,6 +119,6 @@ export const menu = [
         number: 18,
         name: 'Chicken liver pate',
         desc: 'Chicken liver meat spread popular in Northern and Eastern Europe',
-        image: '/menu/18.jpeg'
+        image: '/menu/18.webp'
     }
 ]

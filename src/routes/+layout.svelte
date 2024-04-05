@@ -12,7 +12,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
-<main style="display: flex; justify-content: center;" class="font-lora  bg-stone-100 flex flex-col text-xl">
+<main style="display: flex; justify-content: center;" class="font-lora bg-white flex flex-col text-xl">
 	<Navbar class='px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 start-0' style='padding: 25px 30px;' color="form">
 		<NavBrand href="/">
 		  <img src="/favicon.png" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" />
@@ -23,18 +23,16 @@
 		  <NavLi href="/"><p class="text-lg">Home</p></NavLi>
 		  <NavLi href="/contact"><p class="text-lg">Booking</p></NavLi>
 		  <NavLi href="/menu"><p class="text-lg">Menu</p></NavLi>
-		  <NavLi href="/events"><p class="text-lg">Events</p></NavLi>
+		  <NavLi href="/venue"><p class="text-lg">Venue</p></NavLi>
 		  <NavLi href="/about"><p class="text-lg">About</p></NavLi>
 		</NavUl>
 	  </Navbar>
-	<slot />
-	<Footer footerType="logo" class='bg-stone-100 mt-32'>
+	<slot class="bg-white" />
+	<Footer footerType="logo" class='mt-32'>
 		<div class="sm:flex sm:items-center sm:justify-between">
 		  <FooterBrand href="https://flowbite.com" src="/favicon.png" alt="Flowbite Logo" name={innerWidth < 1024 ? '' : 'Matrioshka - International'} />
 		  <FooterLinkGroup ulClass="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
 			<FooterLink href="/about"><p class="text-lg">About</p></FooterLink>
-			<FooterLink href="/"><p class="text-lg">Privacy Policy</p></FooterLink>
-			<FooterLink href="/"><p class="text-lg">Licensing</p></FooterLink>
 			<FooterLink href="/contact"><p class="text-lg">Booking</p></FooterLink>
 		  </FooterLinkGroup>
 		</div>

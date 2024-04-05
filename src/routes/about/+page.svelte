@@ -61,7 +61,7 @@
          <Paragraph>At Matrioshka International, we offer a diverse menu featuring classic Russian dishes such as borscht, pelmeni, beef stroganoff, and blini. Each dish is prepared using traditional recipes and the finest ingredients, ensuring an authentic dining experience.
          </Paragraph>
             <a href="menu" class="flex justify-center p-[20px]">
-                <ButtonCustom color="black">SEE MENU</ButtonCustom>
+                <ButtonCustom color="black" href='menu'>SEE MENU</ButtonCustom>
             </a>
     </PageSectionParagraph>
 </div>

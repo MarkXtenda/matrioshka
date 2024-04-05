@@ -1,5 +1,6 @@
 <script>
     export let color = 'white';
+    export let href = 'contact';
 </script>
 
 <style>
@@ -15,7 +16,7 @@
     }
 </style>
 
-<a href="contact" class="flex justify-center">
+<a href="/{href}" class="flex justify-center">
     <button style="background-color: {color}; {color !== 'white' ? 'color: white' : 'color: black; padding: 30px 0;'}" class='button'>
         <slot></slot>
     </button>

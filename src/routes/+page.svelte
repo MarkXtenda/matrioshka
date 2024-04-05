@@ -42,7 +42,7 @@ $: innerWidth = 0;
           <div class="separator"></div>
           <div>
               <a href="menu">
-                  <ButtonCustom color="black">Menu</ButtonCustom>
+                  <ButtonCustom color="black" href='menu'>Menu</ButtonCustom>
               </a>
           </div>
       </div>
@@ -53,12 +53,12 @@ $: innerWidth = 0;
     <CarouselTailwind/> -->
     <PageSectionCentered>
         <div class="flex flex-wrap {innerWidth < 1050 ? 'justify-center' : 'place-content-between'}">
-            <PageSectionImage src='/events/2.jpg' width={innerWidth}/>
+            <PageSectionImage src='/venue/2.jpg' width={innerWidth}/>
             <PageSectionParagraph position={'end'} width={innerWidth}>
                 <Headline>WHATS ON</Headline>
                 <Paragraph>Discover unforgettable moments, from weddings to birthdays, our venue is the perfect setting for any occasion. Explore it now now!</Paragraph>
-                <a href="contact" class="flex justify-center pt-[20px]">
-                    <ButtonCustom color="black">VENUE</ButtonCustom>
+                <a href="venue" class="flex justify-center pt-[20px]">
+                    <ButtonCustom color="black" href='venue'>VENUE</ButtonCustom>
                 </a>
             </PageSectionParagraph>
         </div>
@@ -84,6 +84,6 @@ $: innerWidth = 0;
         ABOUT US<br>
       </Headline>
         <a href="about" class="pt-[20px]">
-            <ButtonCustom color="black">About Us</ButtonCustom>
+            <ButtonCustom color="black" href='about'>About Us</ButtonCustom>
         </a>
     </PageSectionCentered>

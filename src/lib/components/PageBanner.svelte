@@ -9,7 +9,7 @@
 	<div class="image-container">
 		<!-- <img style="background-image: url(/first-photo.jpg)" class="h-screen" src="/first-photo.jpg" alt='' data-aos="zoom-in"/> -->
 	</div>
-	<div id="title" class="absolute flex w-full flex-col text-white opacity-90">
+	<div style="top: 13rem;" id="title" class="absolute flex w-full flex-col text-white opacity-90">
 		<p
 			class="flex justify-center text-center font-lora text-5xl font-bold"
 			data-aos="fade-up"

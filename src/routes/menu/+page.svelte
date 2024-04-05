@@ -44,9 +44,9 @@
 	<h2 class="text-center text-5xl font-bold italic">MENU</h2>
 </PageBanner>
 <div style="padding-top: 64px;">
-	<Headline>Cold Entree</Headline>
+	<Headline>Here is our Menu:</Headline>
 </div>
-
+<Headline>Cold Entree</Headline>
 {#each entry as cold_entree}
 	<PageSectionMenu width={innerWidth}>
 		<div
