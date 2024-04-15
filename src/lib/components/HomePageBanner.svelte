@@ -42,7 +42,7 @@
 <!-- <img style="background-image: url(/first-photo.jpg)" class="h-screen" src="/first-photo.jpg" alt='' data-aos="zoom-in"/> -->
 </div>
 <div id="title" class="flex justify-center flex-col w-full text-white absolute top-64 opacity-90">
-    <p class="flex justify-center font-lora text-5xl text-center font-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="500"> Matrioshka - International</p>
+    <p class="flex justify-center font-lora text-5xl text-center font-bold" data-aos="fade-up" data-aos-once="true" data-aos-duration="500"> Matrioshka - International Restaraunt & Reception</p>
     <h2 class="text-xl text-center font-bold">1046 Princes Hwy Service Rd, Carnegie VIC 3163</h2>
     <ButtonCustom>BOOK NOW</ButtonCustom>
   </div>
