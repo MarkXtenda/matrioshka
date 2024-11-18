@@ -8,6 +8,9 @@
 <svelte:window bind:innerWidth />
 
 <head>
+	<meta name="description" content="Matrioshka is a unique Russian restaurant in Melbourne offering a fusion of Eastern Slavic cuisine and contemporary local culture. Experience festive flavours, live music, and unforgettable moments for any occasion.">
+	<meta name="keywords" content="Russian restaurant, Melbourne, international cuisine, Eastern Slavic food, fine dining, New Year's Eve, wedding venue, event venue, booking, Matrioshka restaurant">
+	<meta name="author" content="Mark Kholodii">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
