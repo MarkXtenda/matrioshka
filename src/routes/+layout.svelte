@@ -21,6 +21,7 @@
 		<NavHamburger/>
 		<NavUl>
 		  <NavLi href="/"><p class="text-lg">Home</p></NavLi>
+		  <NavLi href="/newyear"><p class="text-lg">New Year</p></NavLi>
 		  <NavLi href="/contact"><p class="text-lg">Booking</p></NavLi>
 		  <NavLi href="/menu"><p class="text-lg">Menu</p></NavLi>
 		  <NavLi href="/venue"><p class="text-lg">Venue</p></NavLi>

@@ -52,6 +52,18 @@ $: innerWidth = 0;
     <!-- <p class="text-5xl text-center font-bold italic">WHATS ON</p>
     <CarouselTailwind/> -->
     <PageSectionCentered>
+        <div class="flex flex-row-reverse flex-wrap {innerWidth < 1050 ? 'justify-center' : 'place-content-between'}">
+            <PageSectionImage src='/newyear/1.jpg' width={innerWidth}/>
+            <PageSectionParagraph position={'start'} width={innerWidth}>
+                <Headline>CELEBRATE NEW YEAR'S EVE AT MATRIOSHKA INTERNATIONAL</Headline>
+                <Paragraph>Join us in welcoming the New Year with a night of festive flavours, livemusic, and unforgettable moments</Paragraph>
+                <a href="venue" class="flex justify-center pt-[20px]">
+                    <ButtonCustom color="black" href='newyear'>NEW 2025</ButtonCustom>
+                </a>
+            </PageSectionParagraph>
+        </div>
+    </PageSectionCentered>
+    <PageSectionCentered>
         <div class="flex flex-wrap {innerWidth < 1050 ? 'justify-center' : 'place-content-between'}">
             <PageSectionImage src='/venue/2.jpg' width={innerWidth}/>
             <PageSectionParagraph position={'end'} width={innerWidth}>
