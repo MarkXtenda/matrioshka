@@ -12,6 +12,12 @@ import Headline from '$lib/components/fonts/Headline.svelte';
 $: innerWidth = 0;
 </script>
 
+<head>
+    <meta name="description" content="Matrioshka is a unique Russian restaurant in Melbourne offering a fusion of Eastern Slavic cuisine and contemporary local culture. Experience festive flavours, live music, and unforgettable moments for any occasion.">
+    <meta name="keywords" content="Russian restaurant, Melbourne, international cuisine, Eastern Slavic food, fine dining, New Year's Eve, wedding venue, event venue, booking, Matrioshka restaurant">
+    <meta name="author" content="Mark Kholodii">
+</head>
+
 <svelte:window bind:innerWidth/>
 
 <style>
