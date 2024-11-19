@@ -7,8 +7,6 @@
 	import PageSectionParagraph from "$lib/components/PageSectionParagraph.svelte";
 	import Headline from "$lib/components/fonts/Headline.svelte";
 	import Paragraph from "$lib/components/fonts/Paragraph.svelte";
-  
-
   $: innerWidth = 0;
 
   let divStyle = 'justify-content: flex-start;'

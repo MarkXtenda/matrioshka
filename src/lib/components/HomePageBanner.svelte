@@ -5,6 +5,7 @@
 <head>
     <meta name="description" content="Matrioshka is a unique Russian restaurant in Melbourne offering a fusion of Eastern Slavic cuisine and contemporary local culture. Experience festive flavours, live music, and unforgettable moments for any occasion.">
 	<meta name="keywords" content="Russian restaurant, Melbourne, international cuisine, Eastern Slavic food, fine dining, New Year's Eve, wedding venue, event venue, booking, Matrioshka restaurant">
+    <title>Matrioshka - International Restaraunt & Reception</title>
 </head>
 <style>
     .image-container {
